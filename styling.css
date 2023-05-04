@@ -1,0 +1,93 @@
+
+body{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.header{
+    background-color: #F6F1F1;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    font-size: 14px;
+
+}
+
+.profile{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    position: fixed;
+}
+
+
+
+.home{
+    position: absolute;
+    right: 500px;
+    top: 15px;
+    position: fixed;
+}
+
+.name{
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    position: fixed;
+}
+.about{
+    position: absolute;
+    right: 350px;
+    top: 15px;
+    position: fixed;
+}
+
+.projects{
+    position: absolute;
+    right: 185px;
+    top: 15px;
+    position: fixed;
+
+}
+
+.contact{
+    position: absolute;
+    right: 40px;
+    top: 15px;
+    position: fixed;
+}
+
+.HOME{
+    background-color:#3b5cdf ;
+    margin-top: 70px;
+    height: 600px;
+    position: relative;
+}
+
+.intro{
+    color: white;
+    font-size: 65px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.description{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.ABOUT{
+    background-color: #EEEEEE;
+}
+h1{
+    margin-top: 0px;
+    text-align: center;
+    padding: top;
+    padding-top: 40px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
