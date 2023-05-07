@@ -3,12 +3,17 @@ body{
     margin-left: 0%;
     margin-right: 0%;
 }
-.header{
-    background-color: #F6F1F1;
+.head{
     font-family: 'Roboto', sans-serif;
     position: fixed;
+    top: 0px;
     font-size: 14px;
+    background-image: url("whitebg.jpg");
 
+}
+
+header{
+    position: fixed;
 }
 
 .profile{
@@ -59,16 +64,18 @@ body{
 }
 
 .HOME{
+    background-image: url("https://img.freepik.com/free-vector/gradient-blue-abstract-technology-background_23-2149213765.jpg");
+    background-size: cover;
     background-color:#3b5cdf ;
     margin-top: 70px;
-    height: 600px;
+    height: 640px;
     position: relative;
 }
 
 .intro{
     color: white;
     font-size: 65px;
-    padding-top: 50px;
+    padding-top: 120px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
@@ -76,12 +83,23 @@ body{
 .description{
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Ubuntu', sans-serif;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .ABOUT{
     background-color: #EEEEEE;
+    
+    
+
+}
+.heading{
+    font-size: 42px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 200px;
+    
 }
 h1{
     margin-top: 0px;
@@ -90,4 +108,63 @@ h1{
     padding-top: 40px;
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
+}
+hr{
+    
+    border: 4px solid #3b5cdf;
+    border-radius: 5px;
+    width: 3%;
+    margin-bottom: 20px;
+}
+
+.brief{
+    font-size: 18px;
+    color:#434242;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+h6{
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.history{
+    font-size: 16px;
+    color:#434242;
+    width: 90%;
+    
+
+}
+
+.skills{
+    font-size: 16px;
+    color:#434242;
+    width: 90%;
+    
+
+}
+td{
+    width: 50%;
+    
+}
+.knowme{
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+
+
+
+h4{
+    background-color: #d3bfbf;
+    width: fit-content;
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 4PX;
+
 }
