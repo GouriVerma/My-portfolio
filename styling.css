@@ -5,17 +5,36 @@ body{
 }
 .head{
     font-family: 'Roboto', sans-serif;
-    position: fixed;
-    top: 0px;
+    position: absolute;
     font-size: 14px;
-    background-image: url("whitebg.jpg");
-
+    top: 0px;
+    
+    
 }
 
 header{
-    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+header nav ul {
+    position: absolute;
+    right: 500px;
+    top: 15px;
+    list-style: none;
 }
 
+header nav ul li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-top: 15px;
+    position: absolute;
+
+}
 .profile{
     height: 45px;
     width: 45px;
@@ -23,7 +42,7 @@ header{
     position: absolute;
     left: 40px;
     top: 20px;
-    position: fixed;
+    
 }
 
 
@@ -64,7 +83,7 @@ header{
 }
 
 .HOME{
-    background-image: url("https://img.freepik.com/free-vector/gradient-blue-abstract-technology-background_23-2149213765.jpg");
+    background-image: url("https://w0.peakpx.com/wallpaper/1009/110/HD-wallpaper-blue-background-abstract-blue-design.jpg");
     background-size: cover;
     background-color:#3b5cdf ;
     margin-top: 70px;
@@ -90,7 +109,9 @@ header{
 }
 
 .ABOUT{
-    background-color: #EEEEEE;
+    background-color: #F1F1F1;
+    padding-top: 200px;
+    padding-bottom: 200px;
     
     
 
@@ -98,7 +119,7 @@ header{
 .heading{
     font-size: 42px;
     font-family: 'Roboto', sans-serif;
-    padding-top: 200px;
+    
     
 }
 h1{
@@ -123,6 +144,7 @@ hr{
     margin: auto;
     width: 70%;
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 h6{
     font-size: 28px;
@@ -133,6 +155,7 @@ h6{
     font-size: 16px;
     color:#434242;
     width: 90%;
+    font-family: 'Ubuntu', sans-serif;
     
 
 }
@@ -141,6 +164,7 @@ h6{
     font-size: 16px;
     color:#434242;
     width: 90%;
+    font-family: 'Ubuntu', sans-serif;
     
 
 }
@@ -168,3 +192,96 @@ h4{
     border-radius: 4PX;
 
 }
+
+.PROJECTS{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #F1F6F9;
+}
+
+.icon{
+    width: 350px;
+    height: 220px;
+    float: left;
+    margin-right: 50px;
+}
+.project{
+    color:#434242;
+    font-family: 'Ubuntu', sans-serif;
+    width: 80%;
+    text-align: left;
+    
+}
+
+.p{
+    margin: 100px 200px 100px 200px;
+    
+}
+
+.phead{
+    margin-bottom: 10px;
+
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #02253b);
+    background-image: -moz-linear-gradient(top, #3498db, #02253b);
+    background-image: -ms-linear-gradient(top, #3498db, #02253b);
+    background-image: -o-linear-gradient(top, #3498db, #02253b);
+    background-image: linear-gradient(to bottom, #3498db, #02253b);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fcfeff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 70px;
+}
+
+.footer-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.footer-icon hover{
+    background-color: grey;
+}
+.facebook{
+    width: 25px;
+    height: 25px;
+}
+.ftd2{
+    position: absolute;
+    left: 1200px;
+}
+.foothr{
+    color: white;
+    width: 90%;
+    border-radius: 0%;
+    border-color: white;
+    border-width: 1px;
+    
+}
+.copyright{
+    color: white;
+    text-align: center;
+}
+  

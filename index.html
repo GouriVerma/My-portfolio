@@ -16,19 +16,25 @@
         <header>
             <img src="./woman (1).png" alt="profile pic" class="profile"> 
             <h3 class="name">GOURI VERMA</h3>
-            <h3 class="home">HOME</h3>
-            <h3 class="about">ABOUT</h3>
-            <h3 class="projects">PROJECTS</h3>
-            <h3 class="contact">CONTACT</h3>
+            <nav>
+                <ul>
+                    <li><a href="#homelink" class="home">HOME</a></li>
+                    <li><a href="#aboutlink" class="about">ABOUT</a></li>
+                    <LI><a href="#projectlink" class="projects">PROJECTS</a></LI>
+                    <li><a href="#contactlink" class="contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            
+
         </header>
     </div>
     
 
-    <div class="HOME">
+    <div class="HOME" id="homelink">
         <p class="intro">HEY, MY NAME IS GOURI</p>
         <p class="description">I am a newbie in web development who is exploring and uncovering web development secrets. I am excited to dig it out and use it to create some incredible creations.</p>
     </div>
-    <div class="ABOUT">
+    <div class="ABOUT" id="aboutlink">
         <h1 class="heading">ABOUT ME</h1>
         <hr>
         <p class="brief">I'm Gouri, by the way. I am an IIT Bhubaneswar student who is presently attempting to experiment with and explore a wide range of ideas. </p>
@@ -58,11 +64,54 @@
         </table>
     </div>
 
-    <div class="PROJECTS">
+    <div class="PROJECTS" id="projectlink">
         <h1 class="heading">PROJECTS</h1>
         <hr>
         <p class="brief">Being a beginner, I only have a few projects that I have contributed and worked upon, but I'm eager to learn and add more to my portfolio. At the moment, you can check out the two projects that I have completed so far.</p>
+        
+        <div class="p">
+            <img src="laptop.png" alt="projects" class="icon">
+            <h6 class="phead">BTECH Saga(Game)</h6>
+            <p class="project">We worked on an awesome project together for a competition called Ardugem, which was part of the General Championship 23 at IIT Bhubaneswar. Our project is a game development project based on Arduino. It's a platformer game where the character needs to jump over obstacles that come in the way. It was a fun group project that we all enjoyed working on. Do check it out!</p>
+            <a href="https://lnkd.in/d54rWE3a" class="btn">PROJECT LINK</a>
+        </div>
+        <div class="p">
+            <img src="laptop.png" alt="projects" class="icon">
+            <h6 class="phead">My-Portfolio</h6>
+            <p class="project">As a result of project constraints, the another project I have is the one you are going through right now- My Portfolio. I created my it using only HTML and CSS right now. I had a lot of fun working on it, and I'm looking forward to making even more changes and improvements as I continue to learn and grow. Thanks for taking the time to check it out!</p>
+            <a href="https://gouriverma.github.io/My-portfolio/" class="btn">PROJECT LINK</a>
+        </div>
+        
     </div>
+
+    <div class="CONTACT" id="contactlink">
+        <h1 class="heading">CONTACT ME</h1>
+        <hr>
+    </div>
+
+    <div class="footer">
+        <table>
+            <tr>
+                <td class="ftd1">
+                    <p class="fname">Gouri Verma</p>
+                <p class="fdesc">Thank you for exploring my porfolio</p>
+                </td>
+                <td class="ftd2">
+                    <p class="social">SOCIAL</p>
+                    <a href="https://www.linkedin.com/in/gouri-verma-85605024b/"><img src="linkedin-ico.png" alt="" class="footer-icon"></a>
+                    <a href="https://github.com/GouriVerma"><img src="github-ico.png" alt="" class="footer-icon"></a>
+                    
+                    
+                </td>
+            </tr>
+        </table><br>
+        <hr class="foothr"><br>
+        <p class="copyright">© 2022 Gouri Verma</p>
+        
+        
+    </div>
+
+    
     
 </body>
 </html>
